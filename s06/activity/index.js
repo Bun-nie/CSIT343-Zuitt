@@ -22,22 +22,6 @@
     console.log("Do the passwords match?");
     console.log(match);
 
-
-    let modulo = 11;
-	modulo %= 3
-	console.log("Updated modulo variable value:");
-	console.log(modulo);
-
-	let product = 6;
-	product *= 4;
-	console.log("Updated product variable value:");
-	console.log(product);
-
-	let quotient = 24;
-	quotient /= 3;
-	console.log("Updated quotient variable value:");
-	console.log(quotient);
-
 /*
     5. Given the values below, calculate convert the temperature from celsius to fahrenheit and save the result in a variable called resultFahrenheit.
         - Log the value of the variable in the console.
