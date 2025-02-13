@@ -20,3 +20,24 @@
 
 
 
+function printOddNumbers(num) {
+    let oddNumbers = "The odd numbers found are the following: ";
+    let i = 1;
+    do {
+        if (i%2 === 0){
+            i++;
+            continue;
+        } else {
+            console.log("Continue and Break: " + i);
+            oddNumbers += i;
+            if(i<10){
+                oddNumbers += ", "
+            }
+            i++;
+        }
+        if(i>10){
+            break;
+        }
+    } while (i <= num);
+    return oddNumbers;
+}
